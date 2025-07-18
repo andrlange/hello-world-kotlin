@@ -54,10 +54,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - app1.dev.cfapps.cool
+    - app1.app.dev.cfapps.cool
     secretName: cfapps-cool-tls
   rules:
-  - host: app1.dev.cfapps.cool
+  - host: app1.app.dev.cfapps.cool
     http:
       paths:
       - path: /
